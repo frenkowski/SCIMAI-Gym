@@ -35,7 +35,7 @@ Thus, it can be considered a practical and effective option for solving real-wor
 
 ## Requirements
 
-To install (and import) necessary libraries run the section:
+To install (and import) necessary libraries, run the section:
 
 ```setup
 Environment Setup
@@ -51,7 +51,7 @@ The code was tested on:
 
 ## Supply Chain Environment 
 
-To setup the Supply Chain Environment, run the section:
+To set up the Supply Chain Environment, run the section:
 
 ```env
 Reinforcement Learning Classes
@@ -69,7 +69,7 @@ Supply Chain Environment Class
 Global Parameters
 ```
 
-Then to initialize effectively the Supply Chain Environment, run the section:
+Then to initialize the Supply Chain Environment effectively, run the section:
 
 ```init
 Supply Chain Environment Initialization
@@ -102,7 +102,7 @@ Methods
 
 ## Baselines
 
-To assess the DRL algorithms’ performance, we established two different baselines. To initialize the Oracle and the (s, Q)-policy, run the sections:
+To assess the DRL algorithms' performance, we established two different baselines. To initialize the Oracle and the (s, Q)-policy, run the sections:
 
 ```baselines
 Oracle
@@ -132,7 +132,7 @@ To train the BO agents, run the section:
 
 ## DRL Config
 
-To change the DRL algorithms’ parameters (such as the training episodes or the grace period for the ASHA scheduler), edit (and run) the sub-section:
+To change the DRL algorithms' parameters (such as the training episodes or the grace period for the ASHA scheduler), edit (and run) the sub-section:
 
 ```drl_config
 Parameters [Tune]
@@ -161,7 +161,7 @@ To train the DRL agents, run the section:
 Reinforcement Learning Train Agents [Tune]
 ```
 
->❗️  We upload the checkpoints of the best training instance for each approach and experiment, which can be used as a pre-trained model. For example, the checkpoint related to the Exp 1 of the 1P3W scenario for the A3C algorithm is available on `/Paper_Results/1P3W/Exp_1/1P3W_2021-09-22_15-55-24/ray_results/A3C_2021-09-22_19-56-24/A3C_SupplyChain_2a2cf_00024_24_grad_clip=20.0,lr=0.001,fcnet_hiddens=[64, 64],rollout_fragment_length=100,train_batch_size=2000_2021-09-22_22-34-50/checkpoint_000286/checkpoint-286`.
+>❗️  We upload the checkpoints of the best training instance for each approach and experiment, which can be used as a pre-trained model. For example, the checkpoint related to the Exp 1 of the 1P3W scenario for the A3C algorithm is available on `/Paper_Results_1P3W/1P3W/Exp_1/1P3W_2021-09-22_15-55-24/ray_results/A3C_2021-09-22_19-56-24/A3C_SupplyChain_2a2cf_00024_24_grad_clip=20.0,lr=0.001,fcnet_hiddens=[64, 64],rollout_fragment_length=100,train_batch_size=2000_2021-09-22_22-34-50/checkpoint_000286/checkpoint-286`.
 
 ## Results
 
@@ -171,9 +171,9 @@ To output (and save) the performance (in terms of cumulative profit) and the tra
 Final Results
 ```
 
->❗️  We save the plots of the best training instance for each approach and experiment. For example, the plots related to the Exp 1 of the 1P3W scenario are available on `/Paper_Results/1P3W/Exp_1/1P3W_2021-09-22_15-55-24/plots`.
+>❗️  We save the plots of the best training instance for each approach and experiment. For example, the plots related to the Exp 1 of the 1P3W scenario are available on `/Paper_Results_1P3W/1P3W/Exp_1/1P3W_2021-09-22_15-55-24/plots`.
 
-The results obtained should be comparable with those in the paper. For example, for the 1P1W scenario we achieve the following performance:
+The results obtained should be comparable with those in the paper. For example, for the 1P1W scenario, we achieve the following performance:
 
 |       | **A3C** | **PPO** | **VPG** | **BO**  | **Oracle** |
 |-------|---------|---------|---------|---------|------------|
