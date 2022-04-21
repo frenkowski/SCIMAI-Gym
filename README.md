@@ -1,12 +1,12 @@
 # SCIMAI-Gym
 
-[![arXiv](https://img.shields.io/badge/arXiv-0000.00000-b31b1b.svg)](https://arxiv.org/abs/0000.00000)
+[![arXiv](https://img.shields.io/badge/arXiv-2204.09603-b31b1b.svg)](https://arxiv.org/abs/2204.09603)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 [![GitHub license](https://badgen.net/github/license/Naereen/Strapdown.js)](https://github.com/frenkowski/SCIMAI-Gym/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-The Jupyter Notebook `SCIMAI-Gym_V1.ipynb` provides the official implementation of the code necessary to replicate the results presented in the paper [Deep Reinforcement Learning for a Two-Echelon Supply Chain with Seasonal Demand](#). 
+The Jupyter Notebook `SCIMAI-Gym_V1.ipynb` provides the official implementation of the code necessary to replicate the results presented in the paper [Deep Reinforcement Learning for a Two-Echelon Supply Chain with Seasonal Demand](http://arxiv.org/abs/2204.09603). 
 
 ## Authors Information
 
@@ -18,6 +18,14 @@ The Jupyter Notebook `SCIMAI-Gym_V1.ipynb` provides the official implementation 
 ## Citation
 
 ```
+@misc{stranieri2022deep,
+      title={Deep Reinforcement Learning for a Two-Echelon Supply Chain with Seasonal Demand}, 
+      author={Francesco Stranieri and Fabio Stella},
+      year={2022},
+      eprint={2204.09603},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
 
 ## Abstract
