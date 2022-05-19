@@ -7,13 +7,6 @@
 
 The Jupyter Notebook `SCIMAI-Gym_V1.ipynb` provides the code necessary to replicate the results presented in the paper *A Deep Reinforcement Learning Approach to Supply Chain Inventory Management* submitted at the [European Workshop on Reinforcement Learning (EWRL 2022)](https://ewrl.wordpress.com/ewrl15-2022/). 
 
-## Authors Information
-
-**TITLE:** *SCIMAI Gym*  
-**AUTHORS:** *Francesco Stranieri and Fabio Stella*  
-**INSTITUTION:** *University of Milano-Bicocca*  
-**EMAIL:** *francesco.stranieri@unimib.it*
-
 ## Abstract
 
 This paper leverages recent developments in reinforcement learning and deep learning to solve the supply chain inventory management (SCIM) problem, a complex sequential decision-making problem consisting of determining the optimal quantity of products to produce and ship to different warehouses over a given time horizon.
