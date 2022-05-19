@@ -16,7 +16,7 @@ Performances achieved by state-of-the-art DRL algorithms are compared through a 
 The experimental plan is designed and performed, including different structures, topologies, demands, capacities, and costs of the supply chain. 
 Results show that the PPO algorithm adapts very well to different characteristics of the environment.
 The VPG algorithm almost always converges to a local maximum, even if it typically achieves an acceptable performance level.
-Finally, A3C is the fastest algorithm, but just like the VPG, it never achieves the best performance when compared to PPO. 
+Finally, A3C is the fastest algorithm, but just like VPG, it never achieves the best performance when compared to PPO. 
 In conclusion, numerical experiments show that DRL performs consistently better than standard inventory management strategies, such as the static (*s*, *Q*)-policy.
 Thus, it can be considered a practical and effective option for solving real-world instances of the stochastic two-echelon SCIM problem.
 
