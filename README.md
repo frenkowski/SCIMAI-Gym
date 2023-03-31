@@ -6,40 +6,12 @@
 [![GitHub license](https://badgen.net/github/license/Naereen/Strapdown.js)](https://github.com/frenkowski/SCIMAI-Gym/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-The Jupyter Notebook `SCIMAI-Gym_V1.ipynb` provides the official implementation of the code necessary to replicate the results presented in the paper [A Deep Reinforcement Learning Approach to Supply Chain Inventory Management](http://arxiv.org/abs/2204.09603). 
-
 ## Authors Information
 
 **TITLE:** *SCIMAI Gym*  
-**AUTHORS:** *Francesco Stranieri and Fabio Stella*  
-**INSTITUTION:** *University of Milano-Bicocca*  
+**AUTHORS:** *Francesco Stranieri*  
+**INSTITUTION:** *University of Milano-Bicocca/Polytechnic University of Turin*  
 **EMAIL:** *francesco.stranieri@unimib.it*
-
-## Citation
-
-```
-@misc{stranieri2022deep,
-      title={A Deep Reinforcement Learning Approach to Supply Chain Inventory Management}, 
-      author={Francesco Stranieri and Fabio Stella},
-      year={2022},
-      eprint={2204.09603},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
-```
-
-## Abstract
-
-This paper leverages recent developments in reinforcement learning and deep learning to solve the supply chain inventory management (SCIM) problem, a complex sequential decision-making problem consisting of determining the optimal quantity of products to produce and ship to different warehouses over a given time horizon.
-A mathematical formulation of the stochastic two-echelon supply chain environment is given, which allows an arbitrary number of warehouses and product types to be managed.
-Additionally, an open-source library that interfaces with deep reinforcement learning (DRL) algorithms is developed and made publicly available for solving the SCIM problem. 
-Performances achieved by state-of-the-art DRL algorithms are compared through a rich set of numerical experiments on synthetically generated data. 
-The experimental plan is designed and performed, including different structures, topologies, demands, capacities, and costs of the supply chain. 
-Results show that the PPO algorithm adapts very well to different characteristics of the environment.
-The VPG algorithm almost always converges to a local maximum, even if it typically achieves an acceptable performance level.
-Finally, A3C is the fastest algorithm, but just like VPG, it never achieves the best performance when compared to PPO. 
-In conclusion, numerical experiments show that DRL performs consistently better than standard reorder policies, such as the static (*s*, *Q*)-policy.
-Thus, it can be considered a practical and effective option for solving real-world instances of the stochastic two-echelon SCIM problem.
 
 ## Requirements
 
