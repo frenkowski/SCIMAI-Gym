@@ -18,15 +18,15 @@
 If you use SCIMAI-Gym in a scientific publication, we would appreciate citations using the following format:
 
 ```cit
-@misc{stranieri2022deep,
+@misc{stranieri2022comparing,
   doi = {10.48550/ARXIV.2204.09603},
   url = {https://arxiv.org/abs/2204.09603},
   author = {Stranieri,  Francesco and Stella,  Fabio},
   keywords = {Machine Learning (cs.LG),  Artificial Intelligence (cs.AI),  Optimization and Control (math.OC),  FOS: Computer and information sciences,  FOS: Computer and information sciences,  FOS: Mathematics,  FOS: Mathematics,  68T07 (Primary),  90B06,  90B05 (Secondary)},
-  title = {A Deep Reinforcement Learning Approach to Supply Chain Inventory Management},
+  title = {Comparing Deep Reinforcement Learning Algorithms in Two-Echelon Supply Chains},
   publisher = {arXiv},
   year = {2022},
-  copyright = {Creative Commons Attribution Non Commercial No Derivatives 4.0 International}
+  copyright = {Creative Commons Attribution 4.0 International}
 }
 ```
 
