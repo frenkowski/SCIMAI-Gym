@@ -1,6 +1,5 @@
 # SCIMAI-Gym
 
-[![arXiv](https://img.shields.io/badge/arXiv-2204.09603-b31b1b.svg)](https://arxiv.org/abs/2204.09603)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -11,11 +10,27 @@
 **TITLE:** *SCIMAI-Gym*  
 **AUTHOR:** *Francesco Stranieri*  
 **INSTITUTION:** *University of Milano-Bicocca/Polytechnic of Turin*  
-**EMAIL:** *francesco.stranieri@unimib.it*
+**EMAIL:** *francesco.stranieri@polito.it*
 
 ## BibTeX Citation
 
 If you use SCIMAI-Gym in a scientific publication, we would appreciate citations using the following format:
+
+```cit
+@article{Stranieri2024,
+  title = {Combining deep reinforcement learning and multi-stage stochastic programming to address the supply chain inventory management problem},
+  volume = {268},
+  ISSN = {0925-5273},
+  url = {http://dx.doi.org/10.1016/j.ijpe.2023.109099},
+  DOI = {10.1016/j.ijpe.2023.109099},
+  journal = {International Journal of Production Economics},
+  publisher = {Elsevier BV},
+  author = {Stranieri,  Francesco and Fadda,  Edoardo and Stella,  Fabio},
+  year = {2024},
+  month = feb,
+  pages = {109099}
+}
+```
 
 ```cit
 @misc{stranieri2022comparing,
@@ -31,6 +46,8 @@ If you use SCIMAI-Gym in a scientific publication, we would appreciate citations
 ```
 
 ## Requirements
+
+>❗️  The following steps refer to the file `ECML-PKDD_SCIMAI-Gym.ipynb`.
 
 To install and import necessary libraries, run the section:
 
